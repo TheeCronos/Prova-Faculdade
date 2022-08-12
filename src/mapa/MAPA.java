@@ -1,12 +1,8 @@
 package mapa;
 
-import java.util.Scanner;
-
 public class MAPA {
 
     public static void main(String[] args) {
-        
-        Scanner input = new Scanner(System.in);
         
         //-------------------- Eventos ----------------------//
         Evento e1 = new Evento("Rock in Rio", "08/10/2022", 100.00f, 2);        
