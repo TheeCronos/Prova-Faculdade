@@ -11,6 +11,10 @@ public class IngressoCamarote extends Ingresso{
         super.setEventoRelacionado(eventoRelacionado);
     }
     
+    public void imprimirValor() {
+        System.out.println("Tipo de ingresso: Camarote - Valor: " + calcularValorIngresso());
+    }
+    
     @Override
     public Float calcularValorIngresso() {
         percent = super.getEventoRelacionado().getValorUnico() * 0.6f;

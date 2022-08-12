@@ -8,11 +8,15 @@ public abstract class Ingresso {
     
     public abstract Float calcularValorIngresso();
     
+    public abstract void imprimirValor();
+    
     public void mostrarResumo() {
-        System.out.println("Nome: " + nome
+        System.out.println("");
+        System.out.println("Resumo = "
+                        + " Dono do ingresso: " + nome
                         + " - CPF: " + cpf
-                        + " - Nome do Evento: " + getEventoRelacionado().getNome()
-                        + " - Data do Evento: " + getEventoRelacionado().getData());
+                        + " - Evento: " + getEventoRelacionado().getNome()
+                        + " - Data: " + getEventoRelacionado().getData());
     }
 
     public String getNome() {
@@ -37,5 +41,10 @@ public abstract class Ingresso {
 
     public void setEventoRelacionado(Evento eventoRelacionado) {
         this.eventoRelacionado = eventoRelacionado;
+    }
+    
+    @Override
+    public String toString() {
+        return "Nome: " + nome + " - CPF: " + cpf + " - Evento Relacionado: " + eventoRelacionado;
     }
 }

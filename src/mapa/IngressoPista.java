@@ -8,6 +8,10 @@ public class IngressoPista extends Ingresso{
         super.setEventoRelacionado(eventoRelacionado);
     }
     
+    public void imprimirValor() {
+        System.out.println("Tipo de ingresso: Pista - Valor: " + calcularValorIngresso());
+    }
+    
     @Override
     public Float calcularValorIngresso() {
         return super.getEventoRelacionado().getValorUnico();
