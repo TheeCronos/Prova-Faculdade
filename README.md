@@ -17,4 +17,4 @@ Sabendo disso você foi contratado para desenvolver um sistema de venda de ingre
 - Para evento deve existir um método vender ingresso, no qual irá adicionar o ingresso criado na lista, verificando se não excede a capacidade máxima do evento
 - Para evento deve existir também um método pra mostrar a quantidade de ingressos vendidos.
 
-Para funcionamento do programa, poderá ser criado uma classe Principal para que se crie os objetos e executem os métodos, sem ter a necessidade da criação de uma interação com usuário, os dados para os testes devem ser fictícios
+Para funcionamento do programa, poderá ser criado uma classe Principal para que se crie os objetos e executem os métodos, sem ter a necessidade da criação de uma interação com usuário, os dados para os testes devem ser fictícios.
