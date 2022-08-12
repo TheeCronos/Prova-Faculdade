@@ -1,4 +1,4 @@
-# Prova Faculdade em Java
+# Prova da Faculdade em Java
 
 O setor de eventos foi um dos mais atingidos pelas restrições da pandemia da COVID 19.
 
